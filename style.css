@@ -1,0 +1,170 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+ .header{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(/img/img.whitebackground.png);
+    background-size: cover;
+    justify-content: space-around;
+}
+.navigation{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+.contacts{
+    display: flex;
+}
+.navigation nav{
+padding-right: 15px;
+}
+.contacts nav{
+    display: flex;
+    padding-right: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.e-mail:hover{
+    color: #2196F3;
+}
+.cardchild{
+    padding-right: 30px;
+}
+
+.contact:hover{
+    color: #2196F3;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.row2{
+display: flex;
+justify-content: center;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+}
+ .modalwindow{
+    width: 528px;
+height: 581px;
+display: none;
+flex-direction: column;
+}
+.active{
+    display: grid;
+}
+.modalwindow label {
+display: grid;
+}
+.modalwindow input {
+    width: 448px;
+    height: 40px;
+
+}
+textarea{
+    width: 448px;
+    height: 50%;
+}
+.cross{
+padding-top: 5px;
+padding-left: 300px;
+}
+.phone2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    min-width: 250px;
+    padding-left: 8px;
+}
+label{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} 
+.main{
+    background-image: url(/img/Img.png);
+width: 1519px;
+height: 600px;
+}
+.cards{
+    display: flex;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Gasoek One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+color: #212121;
+font-size: 14px;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #212121;
+    font-size: 14px;  
+    margin-top: 100px;
+margin-bottom: 30px;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Gasoek One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+color: #757575;
+font-size: 14px;
+}
+.card::before{
+    content:"";
+    position: absolute;
+    background-image: url(img1.jpeg);
+    width: 300px;
+height:150px;
+background-repeat: no-repeat;
+margin-bottom: 100px;
+}
+.photo::before{
+    content:"";
+    position: absolute;
+    background-image: url(img.2.jpeg);
+    width: 300px;
+height: 150px;
+background-repeat: no-repeat;
+margin-bottom: 100px;
+}
+.picture::before{
+    content:"";
+    position: absolute;
+    background-image: url(img.3.jpeg);
+    width: 300px;
+height: 150px;
+background-repeat: no-repeat;
+margin-bottom: 100px;
+}
+.class::before{
+    content:"";
+    position: absolute;
+    background-image: url(img.4.jpeg);
+    width: 300px;
+    height: 150px;
+    background-repeat: no-repeat;
+margin-bottom: 100px;
+} 
