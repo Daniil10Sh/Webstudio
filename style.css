@@ -195,7 +195,7 @@ margin-bottom: 100px;
     height: auto;
     display: block;
 }
-.cardchild .image-container::after{
+.cardchild .image-container:hover::after{
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     position: absolute;
     display: flex;
@@ -214,4 +214,5 @@ margin-bottom: 100px;
     letter-spacing: 0.54px;
     align-items: center;
     opacity: 1;
+
 }
