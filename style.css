@@ -186,21 +186,22 @@ margin-bottom: 100px;
     background-repeat: no-repeat;
 margin-bottom: 100px;
 } 
-.picture .img-container{
+.pictures .img-container{
     position: relative;
     overflow: hidden;
 }
-.picture .img-container img{
+.pictures .img-container img{
     width: 100%;
     height: auto;
     display: block;
 }
-.picture .img-container:hover{
+.cardchild .image-container::after{
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     position: absolute;
+    display: flex;
     background: rgba(33, 150, 243, 0.90);
     width: 322px;
-    height: 100%;
+    height: 294px;
     color: #FFF;
     font-family: Roboto;
     font-size: 18px;
