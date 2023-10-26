@@ -2,6 +2,11 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 } 
  .header{
     display: flex;
@@ -10,6 +15,9 @@ body{
     background-image: url(/img/img.whitebackground.png);
     background-size: cover;
     justify-content: space-around;
+}
+.img{
+    padding-right: 93px;
 }
 .navigation{
     display: flex;
@@ -30,13 +38,18 @@ padding-right: 15px;
 }
 .e-mail:hover{
     color: #2196F3;
+    cursor: pointer;
 }
+
 .cardchild{
     padding-right: 30px;
 }
-
+.img:hover{
+color: aqua;
+}
 .contact:hover{
     color: #2196F3;
+    cursor: pointer;
 }
 .row1{
     display: flex;
@@ -65,7 +78,6 @@ display: grid;
 .modalwindow input {
     width: 448px;
     height: 40px;
-
 }
 textarea{
     width: 448px;
@@ -94,6 +106,8 @@ height: 600px;
 }
 .cards{
     display: flex;
+    justify-content: space-around;
+
 }
 h1{
     font-family: 'Dancing Script', cursive;
@@ -131,40 +145,72 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 color: #757575;
 font-size: 14px;
+width: 170px;
 }
 .card::before{
     content:"";
     position: absolute;
     background-image: url(img1.jpeg);
-    width: 300px;
-height:150px;
+    width: 170px;
+height: 72px;
 background-repeat: no-repeat;
 margin-bottom: 100px;
+
 }
 .photo::before{
     content:"";
     position: absolute;
     background-image: url(img.2.jpeg);
-    width: 300px;
-height: 150px;
+    width: 170px;
+height: 72px;
 background-repeat: no-repeat;
 margin-bottom: 100px;
+
 }
 .picture::before{
     content:"";
     position: absolute;
     background-image: url(img.3.jpeg);
-    width: 300px;
-height: 150px;
+    width: 170px;
+height: 72px;
 background-repeat: no-repeat;
 margin-bottom: 100px;
+
 }
 .class::before{
     content:"";
     position: absolute;
     background-image: url(img.4.jpeg);
-    width: 300px;
-    height: 150px;
+    width: 170px;
+    height: 72px;
     background-repeat: no-repeat;
 margin-bottom: 100px;
 } 
+.picture .img-container{
+    position: relative;
+    overflow: hidden;
+}
+.picture .img-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.picture .img-container:hover{
+    content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
+    position: absolute;
+    background: rgba(33, 150, 243, 0.90);
+    width: 322px;
+    height: 100%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 24px 15px;
+    line-height: 28px; 
+    top: 0;
+    left: 0;
+    letter-spacing: 0.54px;
+    align-items: center;
+    opacity: 1;
+}
