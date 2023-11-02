@@ -104,7 +104,7 @@ label{
 width: 1519px;
 height: 600px;
 }
-.cards{
+.main-cards{
     display: flex;
     justify-content: space-around;
 
@@ -186,16 +186,52 @@ margin-bottom: 100px;
     background-repeat: no-repeat;
 margin-bottom: 100px;
 } 
-.pictures .img-container{
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 0 30px 32px 0;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.card:nth-child(3),
+.card:nth-child(6),
+.card:nth-child(9)  {
+    margin-right: 0;
+}
+.card h2 {
+    margin: 20px 0 4px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
+}
+.card p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
+}
+.card h2,
+.card p {
+    margin-left: 24px;
+    font-family: Roboto;
+}
+.card .image-container {
     position: relative;
     overflow: hidden;
 }
-.pictures .img-container img{
+.card .image-container img {
     width: 100%;
     height: auto;
     display: block;
 }
-.cardchild .image-container:hover::after{
+.cards .image-container:hover::after{
     content: "Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.";
     position: absolute;
     display: flex;
@@ -214,5 +250,4 @@ margin-bottom: 100px;
     letter-spacing: 0.54px;
     align-items: center;
     opacity: 1;
-
 }
